@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.counter-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  transition: 0.2s;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+button:hover {
+  background: #555;
+}
