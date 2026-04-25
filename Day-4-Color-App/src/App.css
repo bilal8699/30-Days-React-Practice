@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s ease;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  width: 320px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.red {
+  background: linear-gradient(135deg, #ff4b2b, #e72351);
+}
+
+.blue {
+  background: linear-gradient(135deg, #1e90ff, #3742fa);
+}
+
+.green {
+  background: linear-gradient(135deg, #2ed573, #1dd1a1);
+}
+
+.reset {
+  background: linear-gradient(135deg, #2f3542, #57606f);
+}
+
+h1 {
+  color: #222;
+}

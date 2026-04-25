@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Center container */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Title */
+.card h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #667eea;
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #5a67d8;
+}
+
+/* Preview */
+.preview {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.preview h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.preview p {
+  margin: 5px 0;
+  color: #666;
+}
